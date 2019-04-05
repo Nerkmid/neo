@@ -1,3 +1,4 @@
+// mirror of https://raw.githubusercontent.com/hectorvazc/jsfun/master/jsfun.min.js
 function find_selector(e,t) {var n=void 0===t?document.querySelectorAll(e):t.querySelectorAll(e);return console.assert(n.length,["find_selector:",e,t,"is undefined"].join(" ")),0===n.length?void 0:1===n.length?n[0]:n}
 function isNode(e){return e instanceof Node}
 function isNodeList(e){return e instanceof NodeList}
